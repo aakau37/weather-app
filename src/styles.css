@@ -1,0 +1,40 @@
+h1,
+.box {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+.box {
+  border: 4px solid navy;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+  padding: 25px;
+  max-width: 300px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  margin: 0px;
+  padding: 8px;
+}
+
+#current-position-button {
+  background-color: navy;
+  color: white;
+  margin-top: 15px;
+  padding: 5px;
+  border-radius: 7px;
+  transition: ease-in-out;
+}
+
+#current-postition-button:hover {
+  background-color: white;
+  color: navy;
+  cursor: pointer;
+}
