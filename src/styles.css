@@ -38,3 +38,9 @@ li {
   color: navy;
   cursor: pointer;
 }
+
+.openSource {
+  padding: 10px;
+  color: grey;
+  font-size: 14px;
+}
