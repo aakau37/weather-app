@@ -21,27 +21,74 @@
         <input id="city-input" type="search" placeholder="City Name" />
         <button id="city-search-button" type="submit">Search</button>
       </form>
+
+      <img id="today-image" src="src/images/sunny.png" alt="sun" />
+
       <h2 id="city-name">City Name</h2>
       <h3 id="current-date">Current Date</h3>
       <h4 id="current-temp">Current Temp Cº</h4>
-      <ul class="weekdays">
-        <li>
-          Sunday
-          <span>temp</span>
-        </li>
-        <li>
-          Monday
-          <span>temp</span>
-        </li>
-        <li>
-          Tuesday
-          <span>temp</span>
-        </li>
-        <li>
-          Wednesday
-          <span>temp</span>
-        </li>
-      </ul>
+      <div class="container">
+        <div class="row">
+          <div class="col-5">
+            <ul class="weekdays">
+              <li id="tomorrow">Sunday</li>
+              <li id="2days">Monday</li>
+              <li id="3days">Tuesday</li>
+              <li id="4days">Wednesday</li>
+              <li id="5days">Thursday</li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <ul class="forcast">
+              <li id="tomorrowtemp">
+                <img
+                  src="src/images/partly_cloudy.png"
+                  alt="partly cloudy"
+                  width="25px"
+                />
+              </li>
+              <li id="2daystemp">
+                <img
+                  src="src/images/partly_cloudy.png"
+                  alt="partly cloudy"
+                  width="25px"
+                />
+              </li>
+              <li id="3daystemp">
+                <img
+                  src="src/images/partly_cloudy.png"
+                  alt="partly cloudy"
+                  width="25px"
+                />
+              </li>
+              <li id="4daystemp">
+                <img
+                  src="src/images/partly_cloudy.png"
+                  alt="partly cloudy"
+                  width="25px"
+                />
+              </li>
+              <li id="5daystemp">
+                <img
+                  src="src/images/partly_cloudy.png"
+                  alt="partly cloudy"
+                  width="25px"
+                />
+              </li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <ul class="forcast">
+              <li id="tomorrowtemp">50</li>
+              <li id="2daystemp">50</li>
+              <li id="3daystemp">50</li>
+              <li id="4daystemp">50</li>
+              <li id="5daystemp">50</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
       <button id="current-position-button">My Location</button>
       <div class="openSource">
         <a href="https://github.com/aakau37/weather-appOpen">
